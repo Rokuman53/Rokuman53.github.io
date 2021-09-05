@@ -1,0 +1,11 @@
+p {
+    color: rgb(233, 92, 10);
+    font-style: italic;
+    text-align: center;
+    align-items: center;
+    font-size: 10em;
+    text-shadow: 5px 5px rgba(2, 66, 82, 0.486);
+}
+html {
+    background-color: rgb(231, 231, 231);
+}

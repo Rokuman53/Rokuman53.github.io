@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,300&display=swap');
+* {
+    box-sizing: border-box;
+}
+body {
+    background-image: url(images/600x375.jpg);
+    margin: 0;
+    font-family: 'Merriweather', serif;
+}
+.box {
+    background-color: white;
+    max-width: 1000px;
+    width: 90%;
+    /* padding: 20px; */
+    margin: 40px auto;
+}
+.box .header-image {
+    background-image: url(images/3840x2160.jpg); /*Előző div -ből öröklődik a beállítás!*/
+    background-size: cover;
+    /* max-width: 1000px; */
+    /* width: 90%; */
+    height: 300px;
+    /* padding: 20px; */
+    /* margin: 40px auto; */
+}
+.box .box-content {
+    padding: 20px;
+}
+.box .box-content p {
+    color: slategrey;
+}
+.box .box-content h2 {
+    margin: 0%;
+    color: orangered;
+}
+.box .box-content .details a {
+    background: rgb(235, 243, 234);
+    color: rgb(77, 107, 16);
+}
+.box.box-2 .header-image {
+    background-image: url(images/04.jpg); /*Öröklődik a beállítás!*/
+    /* background-size: cover; */
+    /* height: 300px; */
+}

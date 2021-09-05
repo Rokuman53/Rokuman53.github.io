@@ -1,0 +1,19 @@
+h1{
+    margin-left:50px;
+}
+main {
+    font-family: "Markazi Text", serif;
+}
+img {
+    width: 250px;
+}
+div {
+    display: flex;
+}
+section {
+    width: 350px;
+    text-align: center;
+}
+link {
+    display: block;
+}

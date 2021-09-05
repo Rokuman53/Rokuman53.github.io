@@ -1,0 +1,50 @@
+.basicflex1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+.basicflex2 {
+    width: 450px; /*Csak azert kell hogy bal oldalon maradjon*/
+    justify-content: flex-start;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.basicflex3 {
+    display: flex;
+    flex-direction: column-reverse;
+    /*         justify-content: flex-start; */
+}
+.basicflex4 {
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.basicflex5 {
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+
+.green {
+    width: 150px;
+    height: 150px;
+    background-color: #51d400;
+}
+.yellow {
+    width: 150px;
+    height: 150px;
+    background-color: #ffd62a;
+}
+.purple {
+    width: 150px;
+    height: 150px;
+    background-color: #b02afe;
+}
+.item {
+    width: 150px;
+    height: 150px;
+    background-color: white;
+}

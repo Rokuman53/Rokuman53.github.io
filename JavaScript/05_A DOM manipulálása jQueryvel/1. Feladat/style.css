@@ -1,0 +1,25 @@
+.rómaiszám {
+    list-style-type: upper-roman;
+}
+.négyszög {
+    list-style-type: square;
+}
+h1 {
+    color: orange;
+}
+h2,
+h3 {
+    color: purple;
+}
+.magenta {
+    color: magenta;
+}
+.black {
+    color: black;
+}
+.aláhúzás {
+    text-decoration-line: underline;
+}
+p {
+    text-align: justify;
+}

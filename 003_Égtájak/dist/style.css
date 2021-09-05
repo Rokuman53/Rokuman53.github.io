@@ -1,0 +1,28 @@
+main {
+    font-size: 24px;
+    font-family: "Baloo Thambi 2", cursive;
+    border: 5px;
+    border-style: solid;
+    border-color: #4285f4;
+    width: 350px;
+}
+.első {
+    margin: 0;
+    text-align: center;
+    background: #e67676;
+}
+.második {
+    margin: 0;
+    text-align: center;
+    background: #f2f062;
+}
+.harmadik {
+    margin: 0;
+    text-align: center;
+    background: #a9e6e6;
+}
+.negyedik {
+    margin: 0;
+    text-align: center;
+    background: #7692e4;
+}

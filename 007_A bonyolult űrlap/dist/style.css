@@ -1,0 +1,18 @@
+form {
+    padding: 10px;
+    width: 400px;
+    height: 600px;
+}
+.color {
+    background-color: azure;
+}
+
+textarea {
+    width: 150px;
+    height: 90px;
+    font-color: red;
+}
+div {
+    height: 100px;
+    width: 300px;
+}

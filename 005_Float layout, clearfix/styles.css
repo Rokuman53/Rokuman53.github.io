@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(images/body.jpg);
+    background-attachment: fixed;
+    margin: 0%;
+    font-family: 'Cormorant Garamond', serif;
+}
+
+header {
+    max-width: 1600px;
+    height: 600px;
+    background-image: url(images/05.jpg);
+    background-size: cover;
+    color: #009bcb;
+    font-size: 165px;
+    font-weight: 700;
+    padding: 240px 600px 240px 500px;
+    text-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+}
+
+.wrapper {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.content {
+    background-color: gray;
+}
+
+.content::after,
+footer::after {
+    content: '';
+    clear: both;
+    display: table;
+}
+
+nav {
+    width: 25%;
+    float: left;
+}
+
+nav ul {
+    margin: 0%;
+    padding: 50px;
+    list-style: none;
+}
+
+nav ul li {
+    border-bottom: 1px dashed rgba(255, 255, 255, 0.5);
+}
+
+nav a {
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+    padding: 10px 0;
+    display: block;
+}
+
+nav a:hover {
+    padding-left: 20px;
+    background-color: lightslategrey;
+}
+
+main {
+    width: 75%;
+    background-color: white;
+    float: left;
+    padding: 0 30px 30px 30px;
+}
+
+main p {
+    font-size: 24px;
+    line-height: 27px;
+    /* text-align: justify; */
+}
+
+h1 {
+    margin: 30px;
+    font-size: 50px;
+    text-shadow: 5px 5px 8px black;
+}
+
+h1 span {
+    background-color: #62ff0017;
+    box-decoration-break: clone;
+    border-left: 15px solid #f1ffe8;
+    border-right: 15px solid #f1ffe8;
+}
+
+/* main img {
+    float: left;
+} */
+
+.float-right {
+    width: 600px;
+    height: 400px;
+    background-size: cover;
+    float: right;
+    margin: 0 0 20px 20px;
+}
+
+.float-left {
+    width: 600px;
+    height: 400px;
+    background-size: cover;
+    float: left;
+    margin: 20px 20px 0 0;
+}
+
+footer {
+    font-size: 23px;
+    padding: 20px 0;
+}
+footer a {
+    color: black;
+}
+div .left {
+    float: left;
+}
+div .left:hover {
+    color: red;
+    font-weight: 700;
+}
+div .right {
+    float: right;
+}
+div .right a {
+    margin-left: 20px;
+}
+div .right a:hover {
+    font-weight: 700;
+    color: tomato;
+}

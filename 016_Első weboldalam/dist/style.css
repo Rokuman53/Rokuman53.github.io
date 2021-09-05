@@ -1,0 +1,67 @@
+body {
+    margin: auto;
+    width: 1350px;
+    background: mintcream;
+}
+main {
+    width: 900px;
+    margin: auto;
+}
+#sor1 {
+    position: absolute;
+    left: 350px;
+    top: 270px;
+    font-size: 37px;
+    color: #bbdefb;
+    text-shadow: 2px 2px 5px blue;
+}
+#sor2 {
+    position: absolute;
+    left: 350px;
+    top: 320px;
+    font-size: 50px;
+    color: #bbdefb;
+    text-shadow: 2px 2px 5px blue;
+}
+p {
+    font-family: "Baloo 2", cursive;
+    font-size: 18px;
+}
+li {
+    font-family: "Baloo 2", cursive;
+    font-size: 20px;
+}
+.anakin {
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1350px;
+    height: 430px;
+    background-image: url(https://raw.githubusercontent.com/green-fox-academy/myfirstapp-syllabus/master/assets/first-website-header.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+    position: relative;
+    border-top: 5px solid black;
+}
+blockquote {
+    text-shadow: 5px 1px 5px grey;
+    text-align: center;
+    margin: auto;
+    width: auto;
+    font-size: 50px;
+    color: #222 grey;
+    padding: 1px 1px 1px 15px;
+    border-left: 8px solid #78c0a8;
+    line-height: 2.1;
+    background: #ededed;
+    border: 3px solid #c5cae9;
+    border-radius: 30px;
+}
+blockquote:before {
+    content: "\201C";
+}
+footer {
+    border-top: 5px solid black;
+}

@@ -1,0 +1,33 @@
+header {
+    display: flex;
+    height: 50px;
+    width: 1000px;
+    background: purple;
+}
+nav {
+    width: 120px;
+    height: 30px;
+    background: cyan;
+    margin: 10px;
+}
+nav.middle {
+    width: 150px;
+    height: 30px;
+    background: cyan;
+    margin: 10px;
+}
+div {
+    display: flex;
+    height: 500px;
+    width: 1000px;
+}
+.yellow {
+    height: 500px;
+    background: yellow;
+    flex-grow: 4;
+}
+.lime {
+    height: 500px;
+    background: lime;
+    flex-grow: 1;
+}

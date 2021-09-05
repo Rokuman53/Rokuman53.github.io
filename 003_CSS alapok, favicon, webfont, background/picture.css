@@ -1,0 +1,18 @@
+html {
+    height: 100%;
+}
+body {
+    background-color: antiquewhite;
+}
+
+div {
+    margin: 100px auto 0 auto;
+    box-shadow: rgb(61, 0, 0) 7px 3px 20px 8px;
+    width: 1200px;
+    height: 700px;
+    background-image: url(images/3840x2160.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-size: contain; */
+    background-position: center center;
+}

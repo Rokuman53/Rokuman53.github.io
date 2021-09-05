@@ -1,0 +1,44 @@
+header {
+    height: 100px;
+    width: 1000px;
+    background-color: cyan;
+    margin: auto;
+}
+div {
+    display: flex;
+    width: 1000px;
+    height: 1000px;
+    justify-content: space-between;
+    margin: auto;
+}
+.bal {
+    width: 180px;
+    background-color: orange;
+    /*     flex-grow: 0.2; */
+}
+.kozep {
+    position: relative;
+    width: 600px;
+    background-color: red;
+    /*     flex-grow: 0.5; */
+}
+.jobb {
+    width: 180px;
+    background-color: purple;
+    /*     flex-grow: 0.2; */
+}
+
+footer {
+    height: 100px;
+    width: 1000px;
+    background-color: blue;
+    margin: auto;
+}
+#gomb {
+    height: 50px;
+    width: 50px;
+    background: black;
+    position: absolute;
+    right: 50px;
+    bottom: 50px;
+}

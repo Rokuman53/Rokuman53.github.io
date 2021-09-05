@@ -1,0 +1,39 @@
+body {
+    margin: 20px 500px 0 500px;
+    background-color: antiquewhite;
+}
+
+.div-list {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.2em;
+}
+
+hr {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    object-fit: cover;
+    width: 720px;
+    height: auto;
+}
+
+p,
+form,
+fieldset,
+input,
+select,
+button,
+li {
+    font-size: 1.1em;
+}
+
+.urlapok {
+    font-size: 4em;
+    text-shadow: 2px 3px 4px magenta;
+}
+li {
+    margin: 20px 0 20px 0;
+}

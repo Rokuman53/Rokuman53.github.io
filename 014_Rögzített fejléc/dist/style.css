@@ -1,0 +1,43 @@
+header {
+    position: fixed;
+    top: 0;
+    height: 70px;
+    width: 1000px;
+    background: purple;
+}
+section {
+    display: flex;
+}
+nav {
+    height: 30px;
+    width: 100px;
+    background: cyan;
+    margin: 20px;
+    text-align: center;
+}
+div {
+    display: flex;
+    height: 500px;
+    width: 800px;
+    margin-top: 80px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 10px;
+}
+.lime {
+    /*     height: 500px; */
+    background: lime;
+    flex-grow: 1;
+}
+.yellow {
+    /*     height: 500px; */
+    background: yellow;
+    flex-grow: 4;
+}
+footer {
+    height: 50px;
+    width: 800px;
+    background: lightgrey;
+    margin-left: 100px;
+    margin-right: 100px;
+}

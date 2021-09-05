@@ -1,0 +1,29 @@
+p {
+    background: #0d91a1;
+    color: blue;
+    width: 200px;
+    height: 60px;
+    margin: 40px;
+    border: 5px;
+    border-style: solid;
+    border-color: #7dce94;
+    padding: 20px 50px 40px 20px;
+    font-size: 30px;
+    font-family: 'Otomanopee One', sans-serif;
+}
+
+.shorthand-for-all-sides {
+    padding: 30px;
+}
+.different-sides {
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 30px;
+    padding-left: 40px;
+}
+.shorthand-for-different-sides {
+    padding: 10px 20px 30px 40px;
+}
+.shorthand-vertical-horizontal {
+    padding: 10px 20px;
+}

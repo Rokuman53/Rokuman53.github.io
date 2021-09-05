@@ -1,0 +1,88 @@
+.container {
+    background-color: #ffd62a;
+    color: #ffd62a;
+    width: 400px;
+    height: 150px;
+    list-style-type: none;
+    display: flex;
+    align-items: flex-start;
+    /*     align-items: center; */
+    /*     align-items: flex-end; */
+    padding: 0;
+    /*         justify-content: space-between; */
+    /*     flex-direction: row-reverse; */
+    /*     flex-direction: row; */
+}
+.item {
+    /*     margin-left: 5px; */
+    margin-right: 5px;
+    background-color: #b02afe;
+    width: 50px;
+    height: 50px;
+}
+.container1 {
+    background-color: #ffd62a;
+    color: #ffd62a;
+    width: 400px;
+    height: 150px;
+    list-style-type: none;
+    display: flex;
+    align-items: flex-start;
+    align-items: center;
+    /*     align-items: flex-end; */
+    padding: 0;
+    /*         justify-content: space-between; */
+    /*     flex-direction: row-reverse; */
+    flex-direction: row;
+}
+.item1 {
+    /*     margin-left: 5px; */
+    margin-right: 5px;
+    background-color: #b02afe;
+    width: 50px;
+    height: 50px;
+}
+.container2 {
+    background-color: #ffd62a;
+    color: #ffd62a;
+    width: 400px;
+    height: 150px;
+    list-style-type: none;
+    display: flex;
+    /*         align-items: flex-start; */
+    align-items: center;
+    /*     align-items: flex-end; */
+    padding: 0;
+    justify-content: space-between;
+    /*     flex-direction: row-reverse; */
+    /*     flex-direction: row; */
+}
+.item2 {
+    /*     margin-left: 5px; */
+    /*     margin-right: 5px; */
+    background-color: #b02afe;
+    width: 50px;
+    height: 50px;
+}
+.container3 {
+    background-color: #ffd62a;
+    color: #ffd62a;
+    width: 400px;
+    height: 150px;
+    list-style-type: none;
+    display: flex;
+    /*     align-items: flex-start; */
+    /*     align-items: center; */
+    align-items: flex-end;
+    padding: 0;
+    /*         justify-content: space-between; */
+    flex-direction: row-reverse;
+    /*     flex-direction: row; */
+}
+.item3 {
+    margin-left: 5px;
+    /*     margin-right: 5px; */
+    background-color: #b02afe;
+    width: 50px;
+    height: 50px;
+}

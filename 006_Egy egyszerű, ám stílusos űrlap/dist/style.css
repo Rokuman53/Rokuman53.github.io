@@ -1,0 +1,21 @@
+label,
+input,
+button {
+    display: block;
+    text-transform: uppercase;
+    font-family: "Kanit", sans-serif;
+    margin-top: 5px;
+    padding-top: 2px;
+}
+input {
+    border: 2x;
+    border-style: solid;
+    border-color: lime;
+    border-radius: 8px;
+}
+button {
+    border: none;
+    background: lime;
+    border-radius: 20px;
+    padding: 5px;
+}
