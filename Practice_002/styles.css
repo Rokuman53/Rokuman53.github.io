@@ -78,7 +78,6 @@ nav .has-submenu {
 }
 
 nav .submenu a:hover {
-    background-color: #263135;
     color: white;
 }
 
@@ -88,12 +87,12 @@ nav .submenu {
 }
 
 nav .submenu a {
-    background-color: #263135;
     padding: 20px 93px 20px 38px;
 }
 
 nav .has-submenu:hover .submenu {
     display: block;
+    background-color: rgb(55 66 67);
 }
 
 nav .has-submenu::after {
