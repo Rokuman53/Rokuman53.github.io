@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+body {
+    background-color: rgb(255, 250, 244);
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+header {
+    position: relative;
+    margin: 50px auto 10px auto;
+    background-image: url(images/06.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 80vw;
+    height: 600px;
+    background-position: center;
+}
+
+h1 {
+    position: absolute;
+    top: 15px;
+    margin: 0;
+    left: 0;
+    right: 0;
+    font-family: 'Play', sans-serif;
+    font-size: 90px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.5);
+    text-shadow: 0 0 10px rgb(144 172 223);
+}
+
+.wrapper {
+    width: 80vw;
+    background-color: rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+}
+
+.contain {
+    display: flex;
+    align-items: stretch;
+}
+
+nav {
+    width: 20vw;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    margin: 20px 40px;
+    padding: 0;
+    list-style-type: none;
+}
+
+nav ul li {
+    border-bottom: 1px dashed rgba(0, 0, 0, 0.5);
+}
+
+nav ul li a {
+    display: block;
+    padding: 15px 0;
+    font-size: 20px;
+    text-decoration: none;
+    color: rgba(1, 1, 1, 0.8);
+}
+
+nav ul li a:hover {
+    /* color: white; */
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    padding-left: 10px;
+    color: rgba(255, 0, 0, 0.8);
+}
+
+main {
+    margin: 20px;
+    width: 60vw;
+}
+
+h2 {
+    font-size: 35px;
+    color: rgba(1, 1, 1, 0.7);
+    padding: 0;
+    margin-bottom: 50px;
+    text-align: center;
+    text-shadow: 0 0 15px #7088b3;
+}
+
+main p {
+    font-family: 'Play', sans-serif;
+    font-size: 22px;
+    color: rgba(0, 0, 0, 0.6);
+    line-height: 25px;
+}
+
+aside {
+    width: 20vw;
+    background-color: rgba(0, 0, 0, 0.1);
+    font-family: 'Play', sans-serif;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+article {
+    margin: 20px;
+    padding-bottom: 70px;
+}
+
+article img {
+    width: 500px;
+    height: 50%;
+}
+
+article p {
+    margin: 5px auto;
+}
+
+footer ul {
+    display: flex;
+    justify-items: center;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(150, 150, 150, 0.1);
+}
+
+footer ul li {
+    font-size: 20px;
+    padding: 10px 0;
+    list-style-type: none;
+    color: rgba(0, 0, 0, 0.5);
+}
